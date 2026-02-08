@@ -5,13 +5,6 @@ terraform {
       version = "~> 6.0"
     }
   }
-  cloud {
-    organization = "demo-hashitalks-2026"
-    workspaces {
-      name = "demo-hashitalks-2026"
-    }
-  }
-
 }
 
 provider "aws" {
